@@ -1,0 +1,68 @@
+{% extends 'base.html'%}
+
+{% block centre %}
+        <div class="groupe1">
+            <div class="groupe2">
+                <div class="one un"><a href="/index3/">Magasin</a></div>
+                <div class="two un"><a href="/produit/">Produit</a></div>
+                <div class="three un"><a href="">Ventes</a></div>
+                <div class="four un"><a href="">Stock</a></div>
+                <div class="five un"><a href="/">Deconnexion</a></div>
+
+            </div>
+        </div>
+        <div class="groupe3">
+            
+            <div class="container1">
+               
+                <div class="container2">
+                    <form action="/index5/">
+                        <h3>ajouter un nouveau magasin</h3>
+                        <div class="partie">
+                            <div>
+                                <label for="name">nom</label>
+                            </div>
+                            <div>
+                                <input type="text" name="name" id="name" size="20">
+                            </div>
+                        </div>
+                        <div class="partie">
+                            <div>
+                                <label for="name">adresse </label>
+                            </div>
+                            <div>
+                                <input type="text" name="adresse" id="adresse" size="20">
+                            </div>
+                        </div>
+                        <div class="partie">
+                            <div>
+                                <label for="name">telephone</label>
+                            </div>
+                            <div>
+                                <input type="text" name="telephone" id="telephone" size="20">
+                            </div>
+                        </div>
+                        <div class="partie">
+                            <div>
+                                <label for="email">email</label>
+                            </div>
+                            <div>
+                                <input type="text" name="email" id="email" size="20">
+                            </div>
+                        </div>
+
+                        <div class="gd">
+                            <button class="gauche" type="submit"><a href="/index3/">RETOUR</a></button>
+                            <button class="droit" type="submit"><a href="/index5/">VALIDER</button>
+                        </div>                        
+                    </form>
+
+                </div>
+                 
+                    
+               
+
+            </div>
+        </div>
+      </div>
+    {% endblock  %}
